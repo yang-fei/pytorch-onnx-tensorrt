@@ -4,7 +4,7 @@ My environment:
 ubuntu 18.04
 cuda10.2
 cudnn8.0 (or cudnn 8.2 is ok)
-sucessfully transform pytorch-yolov5 to tensorrt. And the reference time is reduced into half. 
+sucessfully transform pytorch-yolov5 to tensorrt. And the reference time is reduced into half. Other pytorch model is OK. 
 
 
 Installation
