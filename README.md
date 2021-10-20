@@ -25,8 +25,8 @@ refer example file: change_to_onnx.py
 refer example file: deploy_tensorrt.py
 
 # Remarks
-1. Tensorrt version < 8.0.1.6 cannot support scatterND plugins. I found no ways to resovle the problem in two days. The best way I think is to re-install tensorrt with a higher version. 
-2. Jetpack >=4.6 will contains the tensorrt 8.0.1. I failed to upgrade the tensorrt version on Jetson NX. The best way is to re-install the jetson system with Jetpack4.6.  
+1. Tensorrt version < 8.0.1.6 cannot support scatterND plugins. I found no ways to solve the problem. The best way I think is to re-install tensorrt with a higher version. 
+2. Jetpack >=4.6 will contains tensorrt 8.0.1. I failed to upgrade the tensorrt version on Jetson NX from 7.1.3 to 8.0.1. The best way is to re-install the jetson system with Jetpack4.6.  
 3. Tensort 7.1.* onnx_to_tensorrt example is different from that of tensorrt 8.*. 
 
 
