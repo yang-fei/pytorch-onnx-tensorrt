@@ -4,6 +4,7 @@ My environment:
 ubuntu 18.04
 cuda10.2
 cudnn8.0 (or cudnn 8.2 is ok)
+sucessfully transform pytorch-yolov5 to tensorrt. And the reference time is reduced into half. 
 
 
 Installation
@@ -17,7 +18,7 @@ Install tensorrt version (>=8.0.1.6). Instaling instruction refer to the officia
 2) cd Python 
 3) pip install ***.whl
 
-## Transfrom pytorch pt/pth to onnx
+## Transform pytorch pt/pth to onnx
 refer example file: change_to_onnx.py
 
 ## Transform onnx file to tensorrt file
